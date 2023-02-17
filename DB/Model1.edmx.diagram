@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ec962b14f93c43a08d24546366b270ae" Name="Diagram1">
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.Account" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.Category" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.Client" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.Employee" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.GIftCard" Width="1.5" PointX="0.75" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.Post" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.Product" Width="1.5" PointX="5.25" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.ProductSale" Width="1.5" PointX="7.5" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.Sale" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KonX2CoffeeHauseModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="5.875" IsExpanded="true" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_Client_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_Employee_Account" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_Client_GIftCard" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_Sale_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_Employee_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_Sale_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="KonX2CoffeeHauseModel.FK_ProductSale_Sale" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

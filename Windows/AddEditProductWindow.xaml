@@ -1,0 +1,83 @@
+﻿<Window x:Class="CoffeeHouse9_14.Windows.AddEditProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CoffeeHouse9_14.Windows"
+        mc:Ignorable="d"
+        Title="AddEditProductWindow" Height="800" Width="500">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+
+            <TextBlock Text="Добавление товара" 
+                       FontSize="30" 
+                       TextAlignment="Center" 
+                       />
+
+            <TextBlock Height="50"
+                       Text="Введите название товара"
+                       FontSize="20"
+                       TextAlignment="Left"
+                       Margin="0 20 0 0 "
+                       />
+
+            <TextBox x:Name="tbTitle"
+                     Height="50"
+                     FontSize="20"
+                     TextAlignment="Left" />
+            <TextBlock
+                Height="50"
+                FontSize="20"
+                TextAlignment="Left"
+                Text="Введите стоимость товара"
+                
+                />
+
+            <TextBox
+                x:Name="tbCost"
+                Height="50"
+                FontSize="20"
+                />
+
+            <TextBlock Height="50"
+                       Text="Выберите тип товара"
+                       FontSize="20"
+                       TextAlignment="Left"
+                       />
+
+            <ComboBox x:Name="cmbCategory"
+                     Height="50"
+                     FontSize="20"
+                      />
+
+
+            <Border BorderBrush="Black"
+                    BorderThickness="1"
+                    Width="200"
+                    Height="200"
+                    Margin="0 20 0 0 ">
+                <Image x:Name="imgProduct"/>
+            </Border>
+            <Button x:Name="btnChooseImage" 
+                    Content="Выбрать фото"
+                    Width="200"
+                    Height="40"
+                    Margin="5" Click="btnChooseImage_Click"
+                    />
+
+
+            <Button x:Name="btnAdd"
+                    Height="50"
+                    Width="200"
+                    Margin="0 40 0 0 " 
+                    HorizontalAlignment="Center"
+                    Content="Добавить" Click="btnAdd_Click"
+                    >
+
+            </Button>
+
+
+        </StackPanel>
+    </Grid>
+</Window>
