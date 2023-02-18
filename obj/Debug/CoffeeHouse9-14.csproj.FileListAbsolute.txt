@@ -17,7 +17,6 @@ C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\CoffeeHouse9-14.csproj.Su
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Client\PurchasePage.g.cs
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Director\ClientPage.g.cs
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Director\EmployeePage.g.cs
-C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Director\ProductPage.g.cs
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\HistroyPage.g.cs
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Manager\AddClientPage.g.cs
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Manager\SalePage.g.cs
@@ -28,7 +27,6 @@ C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Windows\RegistrationWindo
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Client\PurchasePage.baml
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Director\ClientPage.baml
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Director\EmployeePage.baml
-C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Director\ProductPage.baml
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\HistroyPage.baml
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Manager\AddClientPage.baml
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Pages\Manager\SalePage.baml
@@ -43,3 +41,5 @@ C:\Users\IMac10\source\repos\CoffeeHouse9-14\bin\Debug\EntityFramework.SqlServer
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\bin\Debug\ru\EntityFramework.resources.dll
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\CoffeeHouse9-14_Content.g.cs
 C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\CoffeeHouse9-14.csproj.CopyComplete
+C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Windows\AddEditProductWindow.g.cs
+C:\Users\IMac10\source\repos\CoffeeHouse9-14\obj\Debug\Windows\AddEditProductWindow.baml

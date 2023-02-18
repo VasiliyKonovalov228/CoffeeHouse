@@ -36,14 +36,14 @@ namespace CoffeeHouse9_14.Windows
 
         private void btnReg_Click(object sender, RoutedEventArgs e)
         {
-            //for (int i = 0; i < tbLogin.Text.Length; i++)
-            //{
-            //    if (tbLogin[i] >= '0' && A[i] <= '9')
-            //    {
-            //        MessageBox.Show("в строке есть цифры");
-            //        break;
-            //    }
-            //}
+            for (int i = 0; i < tbFname.Text.Length; i++)
+            {
+                if (tbFname.Text[i] >= '0' )
+                {
+                    MessageBox.Show("В имени не должно быть цифр");
+                    break;
+                }
+            }
             if (string.IsNullOrWhiteSpace(tbLogin.Text))
             {
                 MessageBox.Show("Логин не может быть пустым");

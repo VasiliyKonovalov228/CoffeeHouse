@@ -59,6 +59,7 @@
     <Property Name="Title" Type="nvarchar" MaxLength="50" Nullable="false" />
     <Property Name="Cost" Type="decimal" Precision="8" Scale="2" Nullable="false" />
     <Property Name="IdCategory" Type="int" Nullable="false" />
+    <Property Name="Image" Type="varbinary(max)" Nullable="false" />
   </EntityType>
   <EntityType Name="ProductSale">
     <Key>
