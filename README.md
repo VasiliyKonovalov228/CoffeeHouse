@@ -25,6 +25,11 @@
 
 <b1> Добавление товара </b>
 
-<img width="271" alt="image" src="https://user-images.githubusercontent.com/125443382/220173102-d24f6580-7be8-4bd0-a04d-c009372edb36.png">
 
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/125443382/220173149-f5f0f6a1-81a1-4269-81f9-aac6b3b0a9af.png">
+
+<img width="271" alt="image" src="https://user-images.githubusercontent.com/125443382/220173102-d24f6580-7be8-4bd0-a04d-c009372edb36.png">
+
+<b1> Вывод товаров </b>
+<img width="874" alt="image" src="https://user-images.githubusercontent.com/125443382/220190727-19677c5e-66bd-4603-91c3-349d21cb5f1c.png">
+
