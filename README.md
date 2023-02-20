@@ -9,8 +9,13 @@
 
 ![image](https://user-images.githubusercontent.com/125443382/220129264-1597a145-d61a-427f-94d7-d6cf17065060.png)
 
-<b1> Регистрация пользователя </b>
+<b1> Авторизация </b>
 
+![image](https://user-images.githubusercontent.com/125443382/220151512-fe276023-4a09-44cb-a3bb-774348f2d307.png)
+
+![image](https://user-images.githubusercontent.com/125443382/220151697-af1d2e99-1fbb-4d7f-a587-1a059c206872.png)
+
+<b1> Регистрация пользователя </b>
 
 ![image](https://user-images.githubusercontent.com/125443382/220150611-7d7f184e-1ac5-4c4a-933b-c7ed5bafe7aa.png)
 
