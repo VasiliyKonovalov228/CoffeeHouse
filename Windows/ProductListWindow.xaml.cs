@@ -11,6 +11,9 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static CoffeeHouse9_14.ClassHelper.EFClass;
+using CoffeeHouse9_14.Windows;
+using CoffeeHouse9_14.DB;
 
 namespace CoffeeHouse9_14.Windows
 {
@@ -22,6 +25,15 @@ namespace CoffeeHouse9_14.Windows
         public ProductListWindow()
         {
             InitializeComponent();
+            GetProduct();
+        }
+        private void GetProduct()
+        {
+            List<Product> ProdList = new List<Product>();
+
+            ProdList = context.Product.ToList();
+
+            LvProductList.ItemsSource = ProdList;
         }
     }
 }

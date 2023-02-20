@@ -7,6 +7,61 @@
         mc:Ignorable="d"
         Title="ProductListWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Список товаров"
+                   HorizontalAlignment="Center"
+                   FontSize="30"
+                   FontWeight="Bold"/>
+
+        <ListView x:Name="LvProductList" 
+                  Grid.Row="2" 
+                  d:ItemsSource="{d:SampleData ItemCount=7}"
+                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" >
+
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border BorderBrush="Black"
+                            BorderThickness="1"
+                            Margin="5"
+                            Width="200"
+                            Height="250">
+                        <StackPanel>
+                            <Image Height="170"
+                                   Width="200"
+                                   Stretch="Fill">
+                                <Image.Source>
+                                    <Binding Path="Photo">
+
+                                    </Binding>
+                                </Image.Source>
+                            </Image>
+                            <TextBlock Text="{Binding Title}"
+                                       FontSize="18"
+                                       FontWeight="Bold"
+                                       Margin="10 0 0 0"
+                                       TextWrapping="Wrap"/>
+
+                            <TextBlock Text="{Binding Price}"
+                                       FontSize="18"
+                                       FontWeight="Bold"
+                                       Margin="10 0 0 0"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
     </Grid>
 </Window>
